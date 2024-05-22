@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/fancy-food-logo.PNG" type="image/icon type">
+    <title>Fancy Food</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/fancy-food-logo.PNG" height="100px" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">TACO HEART PLATE</h3>
+            <h3 class="menuItem">FANCY CAKE</h3>
+            <h3 class="menuItem">FANCY WAFFLE PLATE</h3>
+            <h3 class="menuItem">PANCAKE KABOB PLATE</h3>
+            <h3 class="menuItem">FANCY BURGER PLATE</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="img/tacoheart.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                    <h1 class="sliderTitle">TACO <br> HEART <br> PLATE</h1>
+                    <h2 class="sliderPrice">$10-$20</h2>
+                    <a href="#product">
+                        <button class="buyButton">FIND NOW</button>
+                    </a>
+            </div>
+            <div class="sliderItem">
+                <img src="img/Fancy_food_1.webp" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                    <h1 class="sliderTitle">FANCY <br> CAKE</h1>
+                    <h2 class="sliderPrice">$10-$20</h2><a href="#product">
+                        <button class="buyButton">FIND NOW</button>
+                    </a>
+            </div>
+            <div class="sliderItem">
+                <img src="img/waffle.webp" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                    <h1 class="sliderTitle">FANCY <br> WAFFLE <br> PLATE</h1>
+                    <h2 class="sliderPrice">$10-$20</h2><a href="#product">
+                        <button class="buyButton">FIND NOW</button>
+                    </a>
+            </div>
+            <div class="sliderItem">
+                <img src="img/pancakw.jpg" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                    <h1 class="sliderTitle">PANCAKE <br> KABOB <br> PLATE</h1>
+                    <h2 class="sliderPrice">$10-$20</h2><a href="#product">
+                        <button class="buyButton">FIND NOW</button>
+                    </a>
+            </div>
+            <div class="sliderItem">
+                <img src="img/burger.jpg" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                    <h1 class="sliderTitle">FANCY <br> BURGER <br> PLATE</h1>
+                    <h2 class="sliderPrice">$10-$20</h2><a href="#product">
+                        <button class="buyButton">FIND NOW</button>
+                    </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img src="./img/return.png" alt="" class="featureIcon">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No questions return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img src="./img/gidt.png" alt="" class="featureIcon">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img src="./img/contact.png" alt="" class="featureIcon">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch viua eamil and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./img/tacoheart.jpg" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">TACO HEART PLATE</h1>
+            <h2 class="productPrice">$10-20</h2>
+            <p class="productDesc">Heart shaped plate lined with tacos to create a "taco heart" sauces included in the middle of the plate.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Jhone Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" width="40" alt="" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="gallerItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="gallerImg">
+            <h1 class="galleryTitle">Find new food ideas!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="gallerImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">NEW WINTER FOOD IDEAS</h3>
+            <h1 class="nsTitle">New Foods</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="fotterLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Taco Heart Plate</li>
+                    <li class="fListItem">Fancy Cake</li>
+                    <li class="fListItem">Fancy Waffle</li>
+                    <li class="fListItem">Fancy Pancake Kabob</li>
+                    <li class="fListItem">Fancy Burger</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.jpg" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@28cece. (on github) All rights reserved. 2022.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
